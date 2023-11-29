@@ -9,7 +9,7 @@ import {
 import Navbar from "./components/Navbar";
 
 const client = new ApolloClient({
-  uri: "graphql",
+  uri: "/graphql",
   cache: new InMemoryCache(),
 });
 
